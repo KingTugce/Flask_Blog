@@ -26,5 +26,5 @@ class Post(db.Model):
             self.slug = str(int(time()))
 
     def __repr__(self):
-        return f'<Post id: {self.id}, title:{self.title}'
+        return f'<Post id: {self.id}, title:{self.title}>'
     
